@@ -10,6 +10,6 @@ using (var context = new UdemyEFCoreDatabaseFırstDbContext())
 
     products.ForEach(p =>
     {
-        Console.WriteLine($"{p.Id} :{p.Name} - {p.Price} - {p.Stock}");
+        Console.WriteLine($"{p.Id} :{p.Name} - {p.Price} - {p.Stock}");//branch
     });
 }
